@@ -1,0 +1,115 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+
+    <include layout="@layout/content_main" />
+
+
+    <android.support.design.widget.AppBarLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/side_nav_bar"
+
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <android.support.v7.widget.Toolbar
+
+            android:id="@+id/toolbar"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="?attr/actionBarSize"
+
+            android:background="@drawable/side_nav_bar"
+
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+
+            />
+
+
+        <android.support.design.widget.TabLayout
+
+            android:id="@+id/tabs"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            app:tabMode="scrollable"
+            app:tabTextColor="@color/common_google_signin_btn_text_dark_focused">
+
+
+            <android.support.design.widget.TabItem
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:color="@android:drawable/ic_menu_send"
+                android:text="one" />
+
+
+            <android.support.design.widget.TabItem
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Two" />
+
+
+            <android.support.design.widget.TabItem
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Three" />
+
+
+            <android.support.design.widget.TabItem
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Four" />
+
+
+            <android.support.design.widget.TabItem
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Five" />
+
+
+            <android.support.design.widget.TabItem
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Six" />
+
+        </android.support.design.widget.TabLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
