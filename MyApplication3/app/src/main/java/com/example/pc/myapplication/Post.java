@@ -1,13 +1,13 @@
 package com.example.pc.myapplication;
 
-public class Post
-{
-    private String id;
+public class Post {
+
     private String title;
     private String content;
-    private String date;
 
-    public Post(){
+    private String id;
+
+    public Post() {
 
     }
 
@@ -15,6 +15,7 @@ public class Post
         this.id = id;
         this.title = title;
         this.content = content;
+
     }
 
     public Post(String title, String content) {
@@ -39,11 +40,13 @@ public class Post
         this.content = content;
     }
 
-    public String getDate() {
-        return date;
+
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public String getId() {
+        return id;
     }
+
 }

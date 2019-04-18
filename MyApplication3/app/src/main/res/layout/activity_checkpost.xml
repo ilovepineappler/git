@@ -12,12 +12,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="5dp">
+
         <TextView
             android:id="@+id/title_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title"
-            android:textAppearance="?android:attr/textAppearanceMedium"/>
+            android:text="제목"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
             android:id="@+id/check_title"
@@ -40,8 +41,8 @@
             android:id="@+id/drawer_shadow.9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Content"
-            android:textAppearance="?android:attr/textAppearanceMedium"/>
+            android:text="내용"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
             android:id="@+id/check_content"
@@ -63,6 +64,6 @@
         android:id="@+id/fab_check1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="back" />
+        android:text="뒤로 가기" />
 
 </LinearLayout>

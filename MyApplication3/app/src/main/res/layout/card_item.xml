@@ -17,28 +17,26 @@
 
         <TextView
             android:id="@+id/pNametxt"
-            android:text="User Name"
-            android:textSize="20sp"
-            android:layout_marginTop="6dp"
-            android:maxLines="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/userImg"
-            android:layout_toEndOf="@+id/userImg"
+            android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" />
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/userImg"
+            android:layout_toRightOf="@+id/userImg"
+            android:maxLines="1"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/pJobProfiletxt"
-            android:text="Job Profile"
-            android:textSize="14sp"
-            android:maxLines="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/pNametxt"
+            android:layout_alignStart="@+id/pNametxt"
             android:layout_alignLeft="@+id/pNametxt"
-            android:layout_alignStart="@+id/pNametxt" />
+            android:maxLines="1"
+            android:textSize="14sp" />
 
     </RelativeLayout>
 

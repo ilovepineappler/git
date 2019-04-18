@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
 
                 android:color="@android:drawable/ic_menu_send"
-                android:text="one" />
+                android:text="게시판1" />
 
 
             <android.support.design.widget.TabItem
@@ -69,7 +69,7 @@
 
                 android:layout_height="wrap_content"
 
-                android:text="Two" />
+                android:text="게시판2" />
 
 
             <android.support.design.widget.TabItem
@@ -78,7 +78,7 @@
 
                 android:layout_height="wrap_content"
 
-                android:text="Three" />
+                android:text="3" />
 
 
             <android.support.design.widget.TabItem
@@ -87,7 +87,7 @@
 
                 android:layout_height="wrap_content"
 
-                android:text="Four" />
+                android:text="4" />
 
 
             <android.support.design.widget.TabItem
@@ -96,7 +96,7 @@
 
                 android:layout_height="wrap_content"
 
-                android:text="Five" />
+                android:text="5" />
 
 
             <android.support.design.widget.TabItem
@@ -105,7 +105,7 @@
 
                 android:layout_height="wrap_content"
 
-                android:text="Six" />
+                android:text="6" />
 
         </android.support.design.widget.TabLayout>
 
